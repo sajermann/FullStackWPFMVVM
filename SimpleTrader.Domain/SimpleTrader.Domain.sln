@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTrader.Domain", "SimpleTrader.Domain.csproj", "{8899CCE6-7CB8-4868-8F6C-909AF5D37DAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTrader.EntityFramework", "..\SimpleTrader.EntityFramework\SimpleTrader.EntityFramework.csproj", "{CDCA3088-7E3A-4D71-B658-D9B2F41B80BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8899CCE6-7CB8-4868-8F6C-909AF5D37DAE} = {8899CCE6-7CB8-4868-8F6C-909AF5D37DAE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8899CCE6-7CB8-4868-8F6C-909AF5D37DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8899CCE6-7CB8-4868-8F6C-909AF5D37DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8899CCE6-7CB8-4868-8F6C-909AF5D37DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8899CCE6-7CB8-4868-8F6C-909AF5D37DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCA3088-7E3A-4D71-B658-D9B2F41B80BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCA3088-7E3A-4D71-B658-D9B2F41B80BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCA3088-7E3A-4D71-B658-D9B2F41B80BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCA3088-7E3A-4D71-B658-D9B2F41B80BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13AE9AD0-5C72-442B-8958-4999D94C3859}
+	EndGlobalSection
+EndGlobal
