@@ -5,9 +5,12 @@ namespace SimpleTrader.EntityFramework
 {
     public class SimpleTraderDbContext : DbContext
     {
+
+
         public DbSet<User> Users { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<AssetTransaction> AssetTransactions{ get; set; }
+        public SimpleTraderDbContext(DbContextOptions options) : base(options){}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -16,10 +19,5 @@ namespace SimpleTrader.EntityFramework
             base.OnModelCreating(modelBuilder);
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Data Source=localhost; Database=SimpleTraderDB; Uid=sa; Pwd=Bruno123456%;",b => b.MigrationsAssembly("SimpleTrader.EntityFramework"));
-            base.OnConfiguring(optionsBuilder);
-        }
     }
 }
