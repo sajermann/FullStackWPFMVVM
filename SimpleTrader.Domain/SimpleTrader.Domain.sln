@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTrader.EntityFramewor
 		{8899CCE6-7CB8-4868-8F6C-909AF5D37DAE} = {8899CCE6-7CB8-4868-8F6C-909AF5D37DAE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{F37B04EB-50BE-4AF3-B75C-F1EAA1B69F00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTrader.WPF", "..\SimpleTrader.WPF\SimpleTrader.WPF.csproj", "{E77AFEA1-F0C1-40BF-BA26-CBC96BAF99A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +26,10 @@ Global
 		{CDCA3088-7E3A-4D71-B658-D9B2F41B80BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDCA3088-7E3A-4D71-B658-D9B2F41B80BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDCA3088-7E3A-4D71-B658-D9B2F41B80BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F37B04EB-50BE-4AF3-B75C-F1EAA1B69F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F37B04EB-50BE-4AF3-B75C-F1EAA1B69F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F37B04EB-50BE-4AF3-B75C-F1EAA1B69F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F37B04EB-50BE-4AF3-B75C-F1EAA1B69F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77AFEA1-F0C1-40BF-BA26-CBC96BAF99A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77AFEA1-F0C1-40BF-BA26-CBC96BAF99A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77AFEA1-F0C1-40BF-BA26-CBC96BAF99A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77AFEA1-F0C1-40BF-BA26-CBC96BAF99A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
